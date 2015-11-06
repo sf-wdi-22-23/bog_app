@@ -333,8 +333,7 @@ class CreaturesController < ApplicationController
 		# check that it saved
 		if creature.save
 			# if saved, redirect to route that shows all creatures
-			redirect_to creatures
-			# ^ same as redirect_to creatures_path
+			redirect_to creatures_path
 			# ^ same as redirect_to "/creatures"
 		end
 	end
