@@ -557,9 +557,9 @@ Rails.application.routes.draw do
 	root to: 'creatures#index'
 	resources :creatures, only: [:index, :new, :show, :create, :edit, :update]
 	# resources :creatures with :update is equivalent to adding BOTH:
-	patch "/creatures/:id", to: "creatures#update"
+	# patch "/creatures/:id", to: "creatures#update"
 	# AND
-	put "/creatures/:id", to: "creatures#update"
+	# put "/creatures/:id", to: "creatures#update"
 end
 ```
 
