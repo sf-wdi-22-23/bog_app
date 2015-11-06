@@ -140,7 +140,7 @@ Your routes tell your app how to direct *HTTP requests** to a **controller actio
 >
 > * Rails also has a built-in shorthand to create routes: `resources`
 > 
-> In the Terminal, `rake routes` will show that some routes have a path prefix listed.  These routes are associated with path methods Rails creates for us and uses behind the scenes. The format of a path method name is `prefix_path`.  For example, `puppies_path` is the full path method name for `GET /puppies` (the puppies index) because its prefix is `puppies`.  
+> In the Terminal, `rake routes` will show that some routes have a prefix listed.  These routes are associated with route helpers (methods Rails creates for us and uses behind the scenes). The format of a route helper name is `prefix_path`.  For example, `puppies_path` is the full route helper name for `GET /puppies` (the puppies index) because its prefix is `puppies`. We often use route helper methods in forms, links, and controllers.
 
 
 
